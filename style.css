@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+.post{
+    width: 35rem;
+    height: 45rem;
+    background: white;
+    margin-top: 3rem; 
+}
+.post_header{
+    display: flex;
+    height: 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post_header i{
+    padding-left: 1rem;
+    padding-top: 20px;
+    font-size: 35px;  
+}
+.post_header h5{
+    padding-top: 1rem;
+}
+.post_image{
+    height: 25rem;
+}
+.post_image img{
+    height: 24rem;
+    width: 35rem;
+}
+.post_footer{
+    height: 15rem;
+}
+.post_footer p{
+    padding-left: 1rem;
+    margin-top: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.post_footer .icons i{
+    font-size: 44px;
+    margin-left: 14px;
+
+}
